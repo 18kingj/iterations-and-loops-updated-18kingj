@@ -2,8 +2,10 @@
 num = int(input())
 count = 0
 for i in range(100, 1000):
-    string = str(i)
-    n = int(string[0]) + int(string[1]) + int(string[2])
-    if n == num:
+    n = i%10
+    s = (i//10)%10
+    m = i//100
+    a = n+s+m
+    if a == num:
         count += 1
 print(count)

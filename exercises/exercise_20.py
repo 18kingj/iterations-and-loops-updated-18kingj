@@ -2,5 +2,5 @@
 num = int(input())
 output = ''
 for i in range(1, num+1, 2):
-    output += str(i)
+    output += str(i) + ' '
 print(output)

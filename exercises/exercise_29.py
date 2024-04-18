@@ -11,4 +11,4 @@ while True:
     if total == 0:
         break
 
-print(squares//2)
+print(squares)
