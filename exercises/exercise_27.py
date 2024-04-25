@@ -1,6 +1,6 @@
 # Your solution to Exercise 27
-import time
-time.sleep(100)
+# import time
+# time.sleep(100)
 n = int(input())
 operator = 1
 pi = 0
